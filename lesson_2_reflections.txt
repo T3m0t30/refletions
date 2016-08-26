@@ -13,3 +13,9 @@ Se adicionarmos um ficheiro por engano
 podemos sempre apagá-lo sem provocar qualquer
 alteração tanto no repositório como no working
 diretory
+
+
+How can you use the staging area to make sure you have one commit per logical change
+
+Você stage só mudanças logicas iguais e commit  os ao
+mesmo tempo
