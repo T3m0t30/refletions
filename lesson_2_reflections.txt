@@ -1,0 +1,15 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+quando inicializamos um repository, no fundo inicializamos
+um repositório vazio. Precisamos de um repositório para
+guardar todos os historicos dos nossos documentos.
+
+
+How is the staging area different from the working directory and the repository?
+
+Stanging area é o ponto intermédio entre
+working directory e repository
+Se adicionarmos um ficheiro por engano
+podemos sempre apagá-lo sem provocar qualquer
+alteração tanto no repositório como no working
+diretory
