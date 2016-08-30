@@ -47,7 +47,7 @@ As with any visualization activity, by drawing out the branch structure you
 can see how the commits and branches relate to each other and can readily
 identify where each branch exists in relation to the others, and which
 commits are reachable from each branch. This can help you see why a bug fix
-or feature is not included in a particlar commit that may be in a different
+or feature is not included in a particular commit that may be in a different
 branch.
 
 ___________________________________________________________________________
@@ -62,3 +62,22 @@ independently of one another and then combine their efforts into a working
 version without stepping on each other's toes. It is represented in the
 diagram as two branches coming together because that is effectively what
 is happening.
+
+_______________________________________________________________________________
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+    Git's automatic merging can save the user a lot of time!  Especially when
+    multiple people are working together, merging everything manually could be
+    very painful.
+
+    The downside of automatic merging is that it's not perfect.  Merging the
+    coins branch with the master branch, which included color, resulted in
+    inconsistent visuals, where most items were colored but the coins were not.
+    Git could even make worse mistakes - for example, if one branch deleted a
+    function, and another branch added a call to that function, Git would merge
+    those together with no conflict and the resulting code would be broken.
+
+    Overall, Git's merging can save a lot of time, but it's important to always
+    double check that the code still works after doing a merge.
