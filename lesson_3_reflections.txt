@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+Quero utilizar remote diretory quando tiver que colaborar com outra pessoa.
